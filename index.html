@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!-- Indica que este é um documento HTML5 e que o idioma é português do Brasil -->
+
+<head> <!-- Cabeçalho do Documento -->
+    <meta charset="UTF-8">
+    <!-- Define o padrão de caracteres como UTF-8 (suporta acentos e caracteres especiais) -->
+
+    <title>Exercício - Vasto</title>
+    <!-- Título que aparece na aba do navegador -->
+
+    <style>
+        /* Aqui começa o CSS, que define a aparência da página */
+
+        body {
+            font-family: Arial, sans-serif; /* Fonte usada no site */
+            background-color: #cccccc;    /* Cor de fundo da página */
+            margin: 0;                      /* Remove margens padrão do navegador */
+            padding: 20px;                  /* Espaço interno da página */
+        }
+
+        .container {
+            background-color: #ffffff; /* Cor de fundo branca da "caixa" principal */
+            width: 600px;                /* Largura fixa da caixa */
+            margin: 0 auto;              /* Centraliza a caixa horizontalmente */
+            text-align: center;          /* Centraliza o conteúdo dentro da caixa */
+            border-radius: 10px;         /* Arredonda os cantos da caixa */
+            overflow: hidden;            /* Garante que nada "vaze" para fora da caixa */
+        }
+
+        .cabecalho {
+            background-color: #4B2389; /* Cor de fundo roxa do cabeçalho */
+            padding: 15px;               /* Espaço interno do cabeçalho */
+        }
+
+        .titulo {
+            color: #5F3AA2;        /* Cor roxa do título */
+            margin: 20px 0 10px 0;   /* Espaços acima e abaixo do título */
+        }
+
+        .texto {
+            color: #444;            /* Cor cinza escuro do texto */
+            font-size: 14px;          /* Tamanho da letra */
+            line-height: 1.5;         /* Espaçamento entre linhas */
+            padding: 0 30px;          /* Espaço interno nas laterais */
+        }
+
+        .botao {
+            display: inline-block;        /* Faz o botão se comportar como "caixa" */
+            background-color: #f26522;  /* Cor de fundo do botão (laranja) */
+            color: white;               /* Cor do texto do botão */
+            text-decoration: none;        /* Remove o sublinhado do link */
+            padding: 12px 24px;           /* Espaço interno (altura e largura) */
+            border-radius: 25px;          /* Deixa as bordas arredondadas */
+            font-weight: bold;            /* Texto em negrito */
+            margin: 20px 0;               /* Espaço acima e abaixo do botão */
+        }
+
+        .rodape {
+            font-size: 13px;     /* Tamanho menor para o rodapé */
+            margin: 20px 0;      /* Espaço acima e abaixo do rodapé */
+        }
+
+        .rodape a {
+            color: #5F3AA2;      /* Cor roxa para o link do rodapé */
+            text-decoration: none; /* Remove sublinhado do link */
+            font-weight: bold;     /* Deixa o link em negrito */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Corpo da página -->
+    <div class="container">
+        <!-- Caixa central que contém todo o conteúdo -->
+
+        <!-- Cabeçalho com fundo roxo -->
+        <div class="cabecalho">
+            <img src="./imagens/cabecalho.png" alt="Cabeçalho">
+            <!-- Imagem do logo/cabeçalho -->
+        </div>
+
+        <!-- Imagem principal (aquela do notebook e mão) -->
+        <img src="./imagens/imagem.png" alt="Imagem principal" width="100%">
+
+        <!-- Título principal -->
+        <h1 class="titulo">Inovação para transformar</h1>
+
+        <!-- Texto explicativo -->
+        <p class="texto">
+            Além de comunicação, estratégia e planejamento, operamos todos os processos
+            buscando pela excelência operacional e otimização de recursos, seja por meio da
+            inovação de nossa plataforma ou de parcerias estratégicas.
+        </p>
+        
+        <!-- Botão estilizado (é um link) -->
+        <a href="https://vasto.com.br" target="_blank" class="botao">Conhecer Site</a>
+
+        <!-- Rodapé com link -->
+        <p class="rodape">
+            Para mais informações acesse: 
+            <a href="https://vasto.com.br" target="_blank">vasto.com.br</a>
+        </p>
+    </div>
+</body>
+
+</html>
